@@ -12,3 +12,9 @@
 | Matplotlib (`matplotlib`)   |          3.7.5 |
 | Pillow (`Pillow`)           |         10.2.0 |
 
+## Running Experiments
+Run the three experiments from the project root:
+```bash
+python hyper_cleaning/hyper_cleaning_SDHP.py
+python PID/PID_SDHP.py
+python quantile_Huber/bilevel_qh_mlp_in_domain.py
